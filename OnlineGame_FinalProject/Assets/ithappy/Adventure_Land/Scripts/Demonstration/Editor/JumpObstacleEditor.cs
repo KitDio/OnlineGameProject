@@ -135,9 +135,8 @@ namespace ithappy.Adventure_Land
             Handles.color = HandleColor;
             float size = HandleUtility.GetHandleSize(heightPos) * HandleSize;
             var rot = Quaternion.identity; 
-            Vector3 newHeightPos = Handles.FreeMoveHandle(
+            var fmh_140_17_639189764901447966 = Quaternion.identity; Vector3 newHeightPos = Handles.FreeMoveHandle(
                 heightPos, 
-                Quaternion.identity, 
                 size, 
                 Vector3.zero, 
                 Handles.SphereHandleCap);
